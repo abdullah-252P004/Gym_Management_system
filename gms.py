@@ -53,3 +53,6 @@ while True:
         fee = {"Monthly": 1000, "Yearly": 10000}
 print("Membership Fee:", fee.get(plan, "Invalid Plan"))
 
+search = input("Enter Member ID: ")
+print(members.get(search, "Member not found"))
+
