@@ -50,3 +50,6 @@ while True:
 
     else:
         print("Invalid choice!")
+        fee = {"Monthly": 1000, "Yearly": 10000}
+print("Membership Fee:", fee.get(plan, "Invalid Plan"))
+
