@@ -8,7 +8,6 @@ while True:
     print("4. Exit")
 
     choice = input("Enter your choice: ")
-
     if choice == "1":
         member_id = input("Enter Member ID: ")
         name = input("Enter Name: ")
